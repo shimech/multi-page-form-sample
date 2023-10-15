@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,7 +7,15 @@ export default function Home() {
       <Head>
         <title>multi-page-form-sample</title>
       </Head>
-      <main>work in progress</main>
+      <main>
+        <ul>
+          <li>
+            <Link href="/without-beforeunload-event/step1">
+              without beforeunload event
+            </Link>
+          </li>
+        </ul>
+      </main>
     </>
   );
 }
