@@ -14,6 +14,9 @@ export default function Home() {
               without beforeunload event
             </Link>
           </li>
+          <li>
+            <Link href="/swr">SWR</Link>
+          </li>
         </ul>
       </main>
     </>
