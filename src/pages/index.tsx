@@ -17,6 +17,11 @@ export default function Home() {
           <li>
             <Link href="/swr">SWR</Link>
           </li>
+          <li>
+            <Link href="/preventing-duplicate-submit">
+              preventing duplicate submit
+            </Link>
+          </li>
         </ul>
       </main>
     </>
