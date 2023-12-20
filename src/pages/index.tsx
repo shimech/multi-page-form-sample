@@ -22,6 +22,12 @@ export default function Home() {
               preventing duplicate submit
             </Link>
           </li>
+          <li>
+            <Link href="/404">404</Link>
+          </li>
+          <li>
+            <Link href="/error">error</Link>
+          </li>
         </ul>
       </main>
     </>
