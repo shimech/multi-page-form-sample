@@ -10,6 +10,9 @@ export default function Home() {
       <main>
         <ul>
           <li>
+            <Link href="/switch-provider/step1">Switch Provider</Link>
+          </li>
+          <li>
             <Link href="/without-beforeunload-event/step1">
               without beforeunload event
             </Link>
